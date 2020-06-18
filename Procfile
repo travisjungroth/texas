@@ -1,2 +1,2 @@
-web: gunicorn projectname.wsgi
+web: gunicorn texas.wsgi
 release: python manage.py migrate --noinput
